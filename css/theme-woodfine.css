@@ -1,0 +1,16 @@
+:root {
+  --sys-color-bg: #F7F9FA;
+  --sys-color-bg-translucent: rgba(247,249,250,0.95);
+  --sys-color-card: #FFFFFF;
+  --sys-color-text: #111827;
+  --sys-color-muted: #6B7280;
+  --sys-color-border: #111827;
+  --sys-color-accent: #164679; /* woodfine_blue */
+  --sys-color-hover: #f0f2f4;
+  
+  --sys-font-primary: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --sys-font-mono: "Barlow Condensed", ui-monospace, SFMono-Regular, Consolas, monospace;
+  
+  --sys-radius-ui: 8px;
+  --sys-radius-pill: 999px;
+}
