@@ -1,0 +1,3 @@
+# GLOBAL TOKENS: Woodfine Telemetry Infrastructure
+telemetry:
+  woodfine_endpoint_url: "https://telemetry.example.com/telemetry-endpoint"

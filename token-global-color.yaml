@@ -1,0 +1,10 @@
+# GLOBAL TOKENS: Woodfine Proprietary Palette
+colors:
+  woodfine-canvas: "#F7F9FA"
+  woodfine-white: "#FFFFFF"
+  woodfine-slate: "#111827"
+  woodfine-slate-translucent: "rgba(17, 24, 39, 0.15)"
+  woodfine-grey-mid: "#6B7280"
+  woodfine-grey-light: "#e9ecef"
+  woodfine-blue: "#164679"
+  woodfine-black-pure: "#000000"

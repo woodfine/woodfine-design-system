@@ -1,12 +1,22 @@
-# Woodfine Media Assets
-### *Sovereign Structural Anchor | Tenant Brand Storage*
+# Woodfine Corporate Identity | Identidad Corporativa
+**Brand Assets & PointSav Theme Injection**
 
-**Status: Active Storage** | **Taxonomy: Tier-3-Platform**
+## 🎨 The Opinionated Paint (Customer Theme)
+This repository contains the proprietary visual identity and system routing parameters for **Woodfine Management Corp.** While the `pointsav-design-system` defines the universal physics of the web (spacing, typography, data schemas), this repository defines how the Woodfine infrastructure *looks* and *communicates*. It acts as the "Paint" injected into the agnostic PointSav core. 
 
-## 📜 Operational Mandate
-Immutable storage locker for Woodfine Capital Projects media and institutional web assets.
+By isolating our brand identity into this independent repository, we guarantee that our vendor's infrastructure remains generic, open-source, and devoid of Woodfine intellectual property.
 
-> **Directory Nomenclature Ledger**
-> All files committed to this directory MUST adhere to the following strict prefix taxonomy:
-> * `ASSET-*`: Inert binary/vector files (e.g., ASSET-FAVICON-CIRCLE.svg).
-> * `TOKEN-*`: Mathematical variables (e.g., TOKEN-COLOR-Brand.yaml).
+## 📂 Master Index: Theme Injection
+
+| File | Role | Description |
+| :--- | :--- | :--- |
+| `token-global-color.yaml` | Global Values | The raw hex codes defining the Woodfine palette. |
+| `token-global-telemetry.yaml` | Config | Defines the active Woodfine transmission URL and port. |
+| `theme-woodfine-light.yaml` | Alias Mapper | Injects Woodfine Global colors into PointSav UI aliases. |
+
+## 📂 Master Index: Print & Vectors
+* **`ASSET-LOGO-PRIMARY.svg`**: Master vector marks.
+* **`OM-STATIONERY-GUIDE.pdf`**: Print standards for Offering Memorandums.
+
+---
+*© 2026 Woodfine Management Corp.*

@@ -1,0 +1,13 @@
+# THEME INJECTION: Woodfine Light
+# Maps Woodfine Globals into PointSav Aliases.
+theme_name: "Woodfine Institutional Light"
+color_scheme: "light"
+inject:
+  canvas: "{woodfine-canvas}"
+  card: "{woodfine-white}"
+  text: "{woodfine-slate}"
+  text_muted: "{woodfine-grey-mid}"
+  border_heavy: "{woodfine-slate}"
+  border_hairline: "{woodfine-slate-translucent}"
+  accent: "{woodfine-blue}"
+  accent_hover: "{woodfine-grey-light}"
