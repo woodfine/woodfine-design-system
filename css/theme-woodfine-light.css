@@ -1,0 +1,26 @@
+/* ==========================================================================
+   THEME INJECTION: WOODFINE INSTITUTIONAL LIGHT
+   Mapped from: token-global-color.yaml & theme-woodfine-light.yaml
+   ========================================================================== */
+:root {
+    /* Core Canvas & Surfaces */
+    --bg-deep: #F7F9FA;          /* woodfine-canvas */
+    --bg-panel: #FFFFFF;         /* woodfine-white */
+    
+    /* Typography */
+    --text-primary: #111827;     /* woodfine-slate */
+    --text-muted: #6B7280;       /* woodfine-grey-mid */
+    
+    /* Structural Borders */
+    --border-dim: rgba(17, 24, 39, 0.15); /* woodfine-slate-translucent */
+    --border-heavy: #111827;     /* woodfine-slate */
+    
+    /* Interactive Accents */
+    --accent-woodfine: #164679;  /* woodfine-blue (Primary Brand) */
+    --accent-secure: #54924E;    /* woodfine-green (Status: Verified/Safe) */
+    --accent-hover: #E9ECEF;     /* woodfine-grey-light */
+
+    /* Typography Physics (Inherited from PointSav Globals) */
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+}
