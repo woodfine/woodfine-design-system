@@ -9,7 +9,7 @@
 [![Tokens](https://img.shields.io/badge/Tokens-CSS_Variables-164679?style=flat-square)](#)
 [![Status](https://img.shields.io/badge/Status-Verified-54924E?style=flat-square)](#)
 
-[ **Active Fleet Manifest** ](https://github.com/woodfine/woodfine-fleet-deployment) | [ **PointSav Design System** ](https://github.com/pointsav/pointsav-design-system) | [ **Main Profile** ](https://github.com/woodfine)
+[ **Active Fleet Manifest** ](https://github.com/woodfine/woodfine-fleet-manifest) | [ **PointSav Design System** ](https://github.com/pointsav/pointsav-design-system) | [ **Main Profile** ](https://github.com/woodfine)
 
 </div>
 
@@ -25,21 +25,6 @@ By isolating our brand identity into this independent repository, we guarantee t
 </details>
 
 ## 🎨 The Customer Theme Injection Architecture
-```mermaid
-graph TD;
-    subgraph Woodfine (Customer)
-        A[token-global-color.yaml] --> B[theme-woodfine-light.yaml];
-    end
-    subgraph PointSav (Vendor Core)
-        B -.->|Injects via Alias| C[token-alias-ui.yaml];
-        C --> D[Sovereign UI Components];
-    end
-    
-    style A fill:#164679,stroke:#111827,stroke-width:2px,color:#fff
-    style B fill:#164679,stroke:#111827,stroke-width:2px,color:#fff
-    style C fill:#111827,stroke:#869FB9,stroke-width:1px,color:#fff
-    style D fill:#292929,stroke:#869FB9,stroke-width:1px,color:#fff
-```
 
 ### 📂 Master Index: Theme Injection
 | File | Role | Description |
