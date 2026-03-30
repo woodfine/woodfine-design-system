@@ -1,0 +1,31 @@
+title: "WOODFINE SPECIFIC PROTOCOL: CORPORATE LEXICON & THEMES"
+metadata:
+  status: "ACTIVE"
+  scope: "APPLIES EXCLUSIVELY TO WOODFINE CAPITAL PROJECTS COMMUNICATIONS"
+sections:
+  - heading: "1. THEMATIC ANCHORS (THE FIVE Fs)"
+    items:
+      - "Factual (Data-driven asset ledgers)"
+      - "First (Vanguard deployment)"
+      - "Fastest (Agile execution)"
+      - "Final (Definitive structural architecture)"
+      - "Future (Multi-Generational Hold)"
+  - heading: "2. FIDUCIARY TOKENS (REQUIRED VOCABULARY)"
+    items:
+      - "direct-hold solutions"
+      - "regional real estate"
+      - "perpetual equity"
+      - "cost-plus model"
+      - "regulated reporting entities"
+  - heading: "3. BANNED VOCABULARY"
+    items:
+      - "synergistic"
+      - "disruptor"
+      - "transformative"
+      - "dispatch"
+      - "but"
+      - "however"
+      - "despite"
+      - "although"
+  - heading: "4. SPANISH TRANSLATION OVERRIDE"
+    content: "To preserve exact legal and functional architecture recognition across Iberian and LATAM capital markets, the specific structural designation 'Direct-Hold Solution' (and its plural) MUST be retained strictly in English within all Spanish translations."

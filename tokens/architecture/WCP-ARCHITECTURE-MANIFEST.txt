@@ -1,0 +1,63 @@
+================================================================================
+DOCUMENT ID:    [GENERATE-NEW-ID]
+CLASSIFICATION: PUBLIC / INTERNAL / INVESTOR RELATIONS
+ASSET:          [INSERT DIAGRAM NAME / PURPOSE]
+AS OF DATE:     [INSERT DATE]
+================================================================================
+
+// PARADIGM: Universal Institutional Architecture
+// PURPOSE:  Single Source of Truth (Data Injection for HTML/Figma Rendering)
+// STYLE:    Institutional Brutalism / Bloomberg Financial Standard
+
+--------------------------------------------------------------------------------
+[GLOBAL_TOKENS] STRATEGIC MANDATE & IDENTITY
+--------------------------------------------------------------------------------
+[DISCLAIMER] [e.g., PRIVATE & CONFIDENTIAL — NOT FOR REDISTRIBUTION]
+[TITLE_1] [KICKER - e.g., TRANSACTION FLOW]
+[TITLE_2] [HEADLINE - e.g., CAPITAL DEPLOYMENT]
+[SUBTITLE] [Optional Subtitle]
+[PREAMBLE_1] [Paragraph 1 context]
+[PREAMBLE_2] [Paragraph 2 context]
+[SIGNATURE_DATE] [Date]
+[SIGNATURE_ENTITY] [Issuing Entity]
+
+--------------------------------------------------------------------------------
+[DATA_LEDGERS] FLOATING TEXT BLOCKS & RULES
+--------------------------------------------------------------------------------
+[LEDGER_BLOCK_1] (Coordinates: X, Y)
+BULLET_1: ""
+BULLET_2: ""
+
+[LEDGER_BLOCK_2] (Coordinates: X, Y)
+BULLET_1: ""
+
+--------------------------------------------------------------------------------
+[COMPONENT_LEDGER] ENTITY & ASSET REGISTRY
+--------------------------------------------------------------------------------
+[NODE_01]
+Title: 
+Code: 
+Alias: 
+Country: 
+Shape_Token: [e.g., Standard Green, Yellow Ellipse]
+Data_Tag: [Optional - e.g., GFV Target]
+
+[NODE_02]
+Title: 
+Code: 
+Alias: 
+Country: 
+Shape_Token: 
+
+--------------------------------------------------------------------------------
+[ROUTING_MARKERS] VECTOR LABELS
+--------------------------------------------------------------------------------
+[VECTOR_A_TO_B]
+Route_Token: [e.g., route-solid-green]
+Label_1: ""
+Label_2: ""
+Highlight: [YES/NO]
+
+================================================================================
+END OF MANIFEST
+================================================================================

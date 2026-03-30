@@ -1,0 +1,58 @@
+---
+metadata:
+  protocol_id: wf-protocol-corporate-signature
+  entity: Woodfine Management Corp.
+  classification: linguistic_design_token
+  version: 1.2.0
+  description: Parametric corporate signature and plain-language disclaimer token.
+
+design_integrity:
+  principles:
+    - Institutional Brutalism
+    - Surgical Precision
+    - Plain Language Accessibility
+
+typography_rules:
+  font_family: "sans-serif"
+  font_style: "normal"  # Italics strictly prohibited.
+  font_size_primary: "1.0rem"
+  font_size_secondary: "0.875rem"
+
+variables:
+  - "{{first_name}}"
+  - "{{last_name}}"
+  - "{{title}}"
+  - "{{phone_number}}"
+  - "{{email_address}}"
+  - "{{physical_address}}"
+
+linguistic_payload:
+  operational_signature: |
+    Woodfine Management Corp.
+    {{first_name}} {{last_name}}, {{title}}
+    
+    {{phone_number}}
+    {{email_address}}
+    woodfinegroup.com | pointsav.com
+
+  legal_boilerplate: |
+    This communication is intended solely for the addressee. Woodfine Management Corp. actively processes and analyzes network communications, including email data, to optimize operations, ensure systemic security, and maintain regulatory ledgers. If you prefer not to receive these emails, just reply to {{email_address}} and let us know.
+    
+    {{physical_address}}
+
+html_reference_structure: |
+  <div style="font-family: sans-serif; font-style: normal;">
+    <p style="color: #000000; font-size: 1.0rem; line-height: 1.4; margin-bottom: 20px;">
+      <strong>Woodfine Management Corp.</strong><br>
+      {{first_name}} {{last_name}}, {{title}}<br><br>
+      {{phone_number}}<br>
+      <a href="mailto:{{email_address}}" style="color: #000000; text-decoration: underline;">{{email_address}}</a><br>
+      woodfinegroup.com | pointsav.com
+    </p>
+
+    <p style="color: #666666; font-size: 0.875rem; line-height: 1.5;">
+      This communication is intended solely for the addressee. Woodfine Management Corp. actively processes and analyzes network communications, including email data, to optimize operations, ensure systemic security, and maintain regulatory ledgers. If you prefer not to receive these emails, just reply to <a href="mailto:{{email_address}}" style="color: #000000; font-weight: 500; text-decoration: underline;">{{email_address}}</a> and let us know.
+      <br><br>
+      {{physical_address}}
+    </p>
+  </div>
