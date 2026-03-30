@@ -1,0 +1,15 @@
+title: "WOODFINE SPECIFIC PROTOCOL: SECURITIES DISCLAIMER"
+metadata:
+  status: "ACTIVE"
+  scope: "APPLIES TO WOODFINE EXTERNAL COMMUNICATIONS"
+sections:
+  - heading: "1. STRATEGIC OBJECTIVE"
+    content: "To provide an airtight, multi-jurisdictional safe harbor for unregistered securities and forward-looking statements while utilizing soft-entry typography and plain language to maintain accessibility. The term 'dispatch' is strictly prohibited; use 'news release' or 'communication'."
+  - heading: "2. SYNTACTICAL ENFORCEMENT"
+    content: "Replace strict S-V-O requirements with 'Financial Journalism Syntax'. Emphasize objective, declarative statements driven by nouns and verbs. Permit dependent clauses when necessary for legal precision or data integration, but prohibit equivocating language. The legal posture 'establishes' and 'disclaims'."
+  - heading: "3. EXECUTION TEMPLATE (SECURITIES FOOTER)"
+    instruction: "This exact block must be appended to any news release discussing capital deployment, investment units, or financial architecture."
+    execution_template: >
+      **Important notice regarding securities and forward-looking statements.**
+
+      This news release does not constitute an offer to sell or a solicitation of an offer to buy any securities. Securities of Woodfine Capital Projects Inc. and its affiliated direct-hold solutions are unregistered and have not been approved by any regulatory authority. They have not been, and will not be, registered under the United States Securities Act of 1933, applicable Canadian provincial securities laws, the Ley del Mercado de Valores (LMV) of Mexico, or the EU Prospectus Regulation (EU 2017/1129) and Spain’s Ley 6/2023 (LMVSI). Distribution is executed strictly via private placement exemptions to permitted qualified investors. This communication contains forward-looking statements within the meaning of the U.S. Private Securities Litigation Reform Act of 1995 and Canadian National Instrument 51-102. Statements regarding capital deployment, structural models, and asset yields are based on management's mathematical assumptions and are subject to material risks—including macroeconomic illiquidity and shifting multi-jurisdictional regulations—which may cause actual results to differ materially. Woodfine disclaims any obligation to update these statements.

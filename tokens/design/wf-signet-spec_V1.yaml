@@ -1,0 +1,21 @@
+# Woodfine Management Corp - Fleet Signet Specification Token
+# Standard: DS-ADR-08 (GitHub Avatar / Circular Safe Zone)
+# Entity Role: Customer / Operational Execution
+# Status: ACTIVE (Compiler Target)
+
+canvas_architecture:
+  background: '#111827' # Deep Slate Solid Base
+  eps_coordinate_space: '512x512'
+  aspect_ratio: '1:1'
+  safe_zone: 'Circular UI Mask (Requires 65% optical bounding)'
+
+color_tokens:
+  primary_fill: '#FFFFFF' # Pure White High-Contrast Ink
+  structural_stroke: 'NONE'
+
+primary_mark:
+  content: 'W'
+  case: 'UPPERCASE'
+  typography: 'Impact/DIN (Tall / Bounded / Institutional Vault)'
+  execution: 'locked_vector_path'
+  alignment: 'absolute_center_optical'
