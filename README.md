@@ -1,42 +1,26 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/woodfine/woodfine-media-assets/main/ASSET-SIGNET-MASTER.svg" width="80" alt="Woodfine Signet">
+# Woodfine Management Corp.
+### *Media Assets: Property & Corporate Photography*
 
-# Corporate Identity | Identidad Corporativa
-### *Brand Assets & PointSav Theme Injection*
+[![Entity](https://img.shields.io/badge/Entity-Enterprise_Customer-164679?style=flat-square)](#)
+[![Asset](https://img.shields.io/badge/Asset-Institutional_Real_Estate-164679?style=flat-square)](#)
 
-[![Aesthetic](https://img.shields.io/badge/Aesthetic-Institutional_Brutalism-164679?style=flat-square)](#)
-[![Tokens](https://img.shields.io/badge/Tokens-CSS_Variables-164679?style=flat-square)](#)
-[![Status](https://img.shields.io/badge/Status-Verified-54924E?style=flat-square)](#)
-
-[ **Active Fleet Manifest** ](https://github.com/woodfine/woodfine-fleet-deployment) | [ **PointSav Design System** ](https://github.com/pointsav/pointsav-design-system) | [ **Main Profile** ](https://github.com/woodfine)
+[ **Organization Profile** ](https://github.com/woodfine) | [ **Fleet Manifest** ](https://github.com/woodfine/woodfine-fleet-deployment) | [ **Corporate Wiki** ](https://github.com/woodfine/content-wiki-corporate) | [ **Projects Wiki** ](https://github.com/woodfine/content-wiki-projects) | [ **Media Assets** ](https://github.com/woodfine/woodfine-media-assets) | [ **PointSav Monorepo** ](https://github.com/pointsav/pointsav-monorepo)
 
 </div>
 
 ---
 
+## 1. PROPERTY MEDIA
+
+**[ EN ]** This repository houses the operational media assets for Woodfine Management Corp. It serves as the isolated hub for content creators to manage architectural diagrams, property photography, and corporate media utilized in public disclosures.
 <details>
-<summary><b>🛡️ VIEW IP ISOLATION DOCTRINE</b></summary>
-<br>
-This repository contains the proprietary visual identity and system routing parameters for Woodfine Management Corp. While the <code>pointsav-design-system</code> defines the universal physics of the web, this repository acts as the "Opinionated Paint" injected into the agnostic PointSav core.
-<br><br>
-By isolating our brand identity into this independent repository, we guarantee that our vendor's infrastructure remains generic, open-source, and devoid of Woodfine intellectual property.
-<br><br>
+<summary><b>[ ES ] Traducción al Español</b></summary>
+Este repositorio alberga los activos de medios operativos para Woodfine Management Corp. Sirve como el centro aislado para que los creadores de contenido gestionen diagramas arquitectónicos, fotografías de propiedades y medios corporativos utilizados en divulgaciones públicas.
 </details>
 
-## 🎨 The Customer Theme Injection Architecture
-
-### 📂 Master Index: Theme Injection
-| File | Role | Description |
-| :--- | :--- | :--- |
-| `token-global-color.yaml` | Global Values | The raw hex codes defining the Woodfine palette. |
-| `token-global-telemetry.yaml` | Config | Defines the active Woodfine transmission URL and port (`8082`). |
-| `theme-woodfine-light.yaml` | Alias Mapper | Injects Woodfine Global colors into PointSav UI aliases. |
-
-### 📂 Master Index: Print & Vectors
-* **`ASSET-LOGO-PRIMARY.svg`**: Master vector marks.
-* **`OM-STATIONERY-GUIDE.pdf`**: Print standards for Offering Memorandums.
-* **`ASSET-SIGNET-MASTER.svg`**: Normalized Woodfine Corporate Signet.
-
----
-*© 2026 Woodfine Management Corp.*
+<br>
+<div align="center">
+<sub><em>Woodfine Capital Projects, Woodfine Management Corp., PointSav Digital Systems, Totebox Orchestration, and Totebox Archive are trademarks owned by Woodfine Capital Projects Inc. This notice serves as a formal declaration of intellectual property rights, asserting continuous use in commerce regardless of the omission of the ™ or ® symbols in the accompanying text. All operational and architectural system designations (including but not limited to PointSav Console OS, PointSav Infrastructure OS, PointSav MediaKit OS, PointSav Network OS, PointSav PrivateGit OS, PointSav Workplace OS, Totebox Integration OS, and Totebox OS) are proprietary structural wordmarks utilized exclusively within the PointSav Digital Systems architecture.</em></sub>
+</div>
