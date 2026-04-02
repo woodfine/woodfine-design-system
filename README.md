@@ -15,9 +15,9 @@
 
 ## 1. PROPERTY & CORPORATE PHOTOGRAPHY
 
-**[ EN ]** This repository contains architectural diagrams, property photography, and corporate media files utilized in public disclosures.
+**[ EN ]** This repository contains architectural diagrams, property photography, and corporate media files utilized strictly for public disclosure and visual property indexing.
 
-> **[ ES ]** *Este repositorio contiene diagramas arquitectónicos, fotografías de propiedades y archivos de medios corporativos utilizados en divulgaciones públicas.*
+> **[ ES ]** *Este repositorio contiene diagramas arquitectónicos, fotografías de propiedades y archivos de medios corporativos utilizados estrictamente para la divulgación pública y la indexación visual de propiedades.*
 
 ---
 
