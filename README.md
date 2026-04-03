@@ -1,33 +1,12 @@
-<div align="center">
+# Woodfine Media Assets
+### *Sovereign Structural Anchor | Tenant Brand Storage*
 
-# 📷 PUBLIC MEDIA ASSETS
-### PROPERTY PHOTOGRAPHY & CORPORATE DIAGRAMS
-*Woodfine Management Corp. Visual Directory.*
+**Status: Active Storage** | **Taxonomy: Tier-3-Platform**
 
-<br/>
+## 📜 Operational Mandate
+Immutable storage locker for Woodfine Capital Projects media and institutional web assets.
 
-**[ ➔ Corporate Governance Wiki ](https://github.com/woodfine/content-wiki-corporate)**<br/>
-**[ ➔ Woodfine Organization ](https://github.com/woodfine)**
-
-</div>
-
-<br/>
-
-> [!WARNING]
-> **MEDIA CUSTODY DECLARATION**
-> This repository is strictly for public rendering and contains no cyberphysical logic state files.
-
----
-
-## I. ASSET DIRECTORY
-
-This repository serves strictly as the designated storage location for the public media assets, property photography, and architectural diagrams of Woodfine Management Corp.
-
----
-
-## II. RENDER LEDGER
-
-| Asset Vector | Rendering Mandate | Status |
-| :--- | :--- | :--- |
-| **Architectural Diagrams** | Public visual disclosures of direct-hold assets. | 🟢 Active |
-| **Corporate Photography** | Executive administration visuals for the media kit. | 🟢 Active |
+> **Directory Nomenclature Ledger**
+> All files committed to this directory MUST adhere to the following strict prefix taxonomy:
+> * `ASSET-*`: Inert binary/vector files (e.g., ASSET-FAVICON-CIRCLE.svg).
+> * `TOKEN-*`: Mathematical variables (e.g., TOKEN-COLOR-Brand.yaml).
