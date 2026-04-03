@@ -13,11 +13,11 @@
 
 ---
 
-## 1. PROPERTY & CORPORATE PHOTOGRAPHY
+## 1. PUBLIC MEDIA ASSETS
 
-**[ EN ]** This repository contains architectural diagrams, property photography, and corporate media files utilized strictly for public disclosure and visual property indexing.
+**[ EN ]** This repository serves strictly as the designated storage location for the public media assets, property photography, and architectural diagrams of Woodfine Management Corp.
 
-> **[ ES ]** *Este repositorio contiene diagramas arquitectónicos, fotografías de propiedades y archivos de medios corporativos utilizados estrictamente para la divulgación pública y la indexación visual de propiedades.*
+> **[ ES ]** *Este repositorio sirve estrictamente como la ubicación de almacenamiento designada para los activos de medios públicos, la fotografía de propiedades y los diagramas arquitectónicos de Woodfine Management Corp.*
 
 ---
 
