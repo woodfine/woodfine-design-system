@@ -1,12 +1,14 @@
 # Woodfine Media Assets
-### *Sovereign Structural Anchor | Tenant Brand Storage*
 
-**Status: Active Storage** | **Taxonomy: Tier-3-Platform**
+Brand assets, visual primitives, and institutional identity files for Woodfine Management Corp. and Woodfine Capital Projects Inc.
 
-## 📜 Operational Mandate
-Immutable storage locker for Woodfine Capital Projects media and institutional web assets.
+All files in this repository follow a strict prefix taxonomy:
 
-> **Directory Nomenclature Ledger**
-> All files committed to this directory MUST adhere to the following strict prefix taxonomy:
-> * `ASSET-*`: Inert binary/vector files (e.g., ASSET-FAVICON-CIRCLE.svg).
-> * `TOKEN-*`: Mathematical variables (e.g., TOKEN-COLOR-Brand.yaml).
+- `ASSET-*` — Inert binary and vector files (e.g., `ASSET-SIGNET-MASTER.svg`, `ASSET-FAVICON-CIRCLE.svg`)
+- `TOKEN-*` — Design system variables (e.g., `TOKEN-COLOR-Brand.yaml`)
+
+**[→ woodfinegroup.com](https://woodfinegroup.com)** &nbsp;·&nbsp; **[→ github.com/woodfine](https://github.com/woodfine)**
+
+---
+
+*© 2026 Woodfine Management Corp. All rights reserved.*
