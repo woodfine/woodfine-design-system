@@ -17,7 +17,7 @@
     
     /* Interactive Accents */
     --accent-woodfine: #164679;  /* woodfine-blue (Primary Brand) */
-    --accent-secure: #54924E;    /* woodfine-green (Status: Verified/Safe) */
+    --accent-secure: #54924E;    /* woodfine-green — see token-global-color.yaml (promoted primitive) */
     --accent-hover: #E9ECEF;     /* woodfine-grey-light */
 
     /* Typography Physics (Inherited from PointSav Globals) */

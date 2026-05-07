@@ -8,3 +8,20 @@ colors:
   woodfine-grey-light: "#e9ecef"
   woodfine-blue: "#164679"
   woodfine-black-pure: "#000000"
+
+  # AEC semantic palette additions — small-step forward
+  # Source: clones/project-bim/.agent/drafts-outbound/woodfine-palette-additions.md
+  # Research: BB.13 (AEC color conventions), BB.14 (design-system pick), Sub-agent C (regulatory acceptance)
+  # Master co-signed: 2026-05-06T19:10Z | Committed: 2026-05-07
+
+  woodfine-amber: "#B54708"         # Regulation-warning / IDS validation alert
+  woodfine-amber-bg: "#FFF8ED"      # Soft amber tint surface
+
+  woodfine-cyan: "#0E7490"          # MEP / systems-element indicator (IfcDistributionElement)
+  woodfine-cyan-bg: "#ECFEFF"       # Soft cyan tint surface
+
+  woodfine-error: "#B42318"         # Clash / IDS validation failure / regulation violation
+  woodfine-error-bg: "#FEF3F2"      # Soft error tint surface
+
+  woodfine-green: "#54924E"         # Verified/safe state — IDS pass, compliance ok (promoted from accent-secure in theme)
+  woodfine-green-bg: "#ECFDF3"      # Soft green tint surface
