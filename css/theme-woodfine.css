@@ -1,16 +1,40 @@
+/* ==========================================================================
+   THEME: WOODFINE — ALTERNATE VARIANT
+   CSS variable prefix: --wf-*
+   ========================================================================== */
 :root {
-  --sys-color-bg: #F7F9FA;
-  --sys-color-bg-translucent: rgba(247,249,250,0.95);
-  --sys-color-card: #FFFFFF;
-  --sys-color-text: #111827;
-  --sys-color-muted: #6B7280;
-  --sys-color-border: #111827;
-  --sys-color-accent: #164679; /* woodfine_blue */
-  --sys-color-hover: #f0f2f4;
-  
-  --sys-font-primary: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --sys-font-mono: "Barlow Condensed", ui-monospace, SFMono-Regular, Consolas, monospace;
-  
-  --sys-radius-ui: 8px;
-  --sys-radius-pill: 999px;
+  /* Core Canvas & Surfaces */
+  --wf-canvas: #F7F9FA;                        /* woodfine-canvas */
+  --wf-canvas-translucent: rgba(247,249,250,0.95);
+  --wf-card: #FFFFFF;                          /* woodfine-white */
+
+  /* Typography */
+  --wf-text: #111827;                          /* woodfine-slate */
+  --wf-text-muted: #6B7280;                    /* woodfine-grey-mid */
+
+  /* Structural Borders */
+  --wf-border-heavy: #111827;                  /* woodfine-slate */
+  --wf-border-hairline: rgba(17, 24, 39, 0.15);
+
+  /* Interactive Accents */
+  --wf-accent: #164679;                        /* woodfine-blue */
+  --wf-accent-hover: #f0f2f4;
+
+  /* Typography Physics */
+  --wf-font-sans: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --wf-font-mono: "Barlow Condensed", ui-monospace, SFMono-Regular, Consolas, monospace;
+
+  /* Radii */
+  --wf-radius-ui: 8px;
+  --wf-radius-pill: 999px;
+
+  /* AEC Semantic Colors */
+  --wf-safe: #54924E;                          /* woodfine-green — IDS pass */
+  --wf-safe-bg: #ECFDF3;                       /* woodfine-green-bg */
+  --wf-warning: #B54708;                       /* woodfine-amber — regulation warning */
+  --wf-warning-bg: #FFF8ED;                    /* woodfine-amber-bg */
+  --wf-mep: #0E7490;                           /* woodfine-cyan — MEP / systems */
+  --wf-mep-bg: #ECFEFF;                        /* woodfine-cyan-bg */
+  --wf-error: #B42318;                         /* woodfine-error — clash / IDS fail */
+  --wf-error-bg: #FEF3F2;                      /* woodfine-error-bg */
 }

@@ -1,5 +1,6 @@
 # GLOBAL TOKENS: Woodfine Proprietary Palette
 colors:
+  # Institutional brand spine
   woodfine-canvas: "#F7F9FA"
   woodfine-white: "#FFFFFF"
   woodfine-slate: "#111827"
