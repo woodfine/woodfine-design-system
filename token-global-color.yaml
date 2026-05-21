@@ -18,6 +18,7 @@ colors:
 
   woodfine-amber: "#B54708"         # Regulation-warning / IDS validation alert
   woodfine-amber-bg: "#FFF8ED"      # Soft amber tint surface
+  woodfine-amber-tint: "#FFF3E0"    # Chart/org-chart amber tint (project-orgcharts)
 
   woodfine-cyan: "#0E7490"          # MEP / systems-element indicator (IfcDistributionElement)
   woodfine-cyan-bg: "#ECFEFF"       # Soft cyan tint surface
@@ -27,3 +28,12 @@ colors:
 
   woodfine-green: "#54924E"         # Verified/safe state — IDS pass, compliance ok (promoted from accent-secure in theme)
   woodfine-green-bg: "#ECFDF3"      # Soft green tint surface
+  woodfine-green-tint: "#EEF6EC"    # Chart/org-chart green tint (project-orgcharts)
+
+  # Chart/org-chart palette — project-orgcharts
+  woodfine-orange: "#F15F22"
+  woodfine-orange-tint: "#FDE8DD"
+  woodfine-gold: "#C89211"
+  woodfine-gold-tint: "#FAEFCC"
+  woodfine-purple: "#7C468C"
+  woodfine-purple-tint: "#EEE6F1"
