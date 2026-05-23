@@ -8,6 +8,7 @@ colors:
   woodfine-grey-mid: "#6B7280"
   woodfine-grey-light: "#e9ecef"
   woodfine-blue: "#164679"
+  woodfine-blue-tint: "#E8EFF7"        # Woodfine Blue surface tint — Venn/chart bubble fill
   woodfine-black-pure: "#000000"
 
   # AEC semantic palette additions — small-step forward
