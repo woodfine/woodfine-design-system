@@ -37,3 +37,11 @@ colors:
   woodfine-gold-tint: "#FAEFCC"
   woodfine-purple: "#7C468C"
   woodfine-purple-tint: "#EEE6F1"
+
+  # Org-chart palette additions — 2026-06-06
+  # Source: project-orgcharts 9-chart production set (commit dabe5000)
+  # Yellow updated 2026-06-06 from #F57F17 (perceptual distance from orange #F15F22 insufficient)
+  woodfine-yellow: "#EAB308"         # Org-chart fund vehicle / LP — dashed pill connector color
+  woodfine-yellow-tint: "#FFFDE7"    # Soft yellow surface for fund vehicle nodes
+  woodfine-magenta: "#9F1853"        # Legacy Bencal Corporate entity — token-magenta nodes
+  woodfine-magenta-tint: "#FFD6E8"   # Soft magenta surface for legacy corporate nodes
