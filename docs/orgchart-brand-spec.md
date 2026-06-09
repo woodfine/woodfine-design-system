@@ -15,8 +15,6 @@ This document explains how the `--wf-chart-*` CSS custom properties and the `woo
 | `--wf-chart-purple` | `woodfine-purple` (YAML) | No existing CSS var. Purple is in YAML only; `--wf-chart-purple` is the first CSS variable for this color. |
 | `--wf-chart-orange` | `woodfine-orange` (YAML) | No existing CSS var. Orange is in YAML only. |
 | `--wf-chart-yellow` | `woodfine-yellow` (new) | Entirely new. Was `#F57F17` (amber), updated 2026-06-06 to `#EAB308`. |
-| `--wf-chart-magenta` | `woodfine-magenta` (new) | Entirely new. No prior YAML or CSS entry. |
-| `--wf-chart-teal` | — | Pending teal/red addition draft (token-woodfine-theme-teal-red-additions). |
 | `--wf-chart-grey` | `woodfine-grey-mid` (`#6B7280`) | Different value — chart grey `#9CA3AF` is lighter than `woodfine-grey-mid`. |
 
 ## Why `--wf-chart-*` prefix
@@ -37,8 +35,6 @@ These did not exist in any prior `woodfine-media-assets` file:
 |---|---|---|---|
 | Yellow | `#EAB308` | `woodfine-yellow` | Fund vehicle LP nodes — dashed pill |
 | Yellow surface | `#FFFDE7` | `woodfine-yellow-tint` | LP node background |
-| Magenta | `#9F1853` | `woodfine-magenta` | Pre-reorganization Bencal Corp |
-| Magenta surface | `#FFD6E8` | `woodfine-magenta-tint` | Bencal legacy node background |
 
 ## Colors in YAML but missing from CSS (now covered by `--wf-chart-*`)
 

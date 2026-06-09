@@ -38,7 +38,7 @@
   --wf-error: #B42318;                         /* woodfine-error — clash / IDS fail */
   --wf-error-bg: #FEF3F2;                      /* woodfine-error-bg */
 
-  /* ── Org-chart palette — all 9 entity-role colors ────────────────── */
+  /* ── Org-chart palette — 7 entity-role colors ────────────────────── */
   --wf-chart-green: #54924E;          /* corporate holding company */
   --wf-chart-green-tint: #EEF6EC;
   --wf-chart-blue: #164679;           /* investment vehicle / investor unit */
@@ -53,10 +53,6 @@
   --wf-chart-grey-dark: #374151;      /* strong border variant */
   --wf-chart-yellow: #EAB308;         /* fund vehicle / LP (dashed pill) */
   --wf-chart-yellow-tint: #FFFDE7;
-  --wf-chart-magenta: #9F1853;        /* legacy corporate (Bencal pre-reorg) */
-  --wf-chart-magenta-tint: #FFD6E8;
-  --wf-chart-teal: #005D5D;           /* legacy asset company (Bencal pre-reorg) */
-  --wf-chart-teal-tint: #9EF0F0;
 
   /* ── Org-chart typography tokens ───────────────────────────────────── */
   --wf-chart-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
