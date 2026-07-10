@@ -1,5 +1,7 @@
 # THEME INJECTION: Woodfine Light
-# Maps Woodfine Globals into PointSav Aliases.
+# Maps Woodfine Globals into the shared semantic alias schema (canvas/card/
+# text/text_muted/border_heavy/border_hairline/accent/accent_hover) used
+# across both brand theme files in this workspace family.
 theme_name: "Woodfine Institutional Light"
 color_scheme: "light"
 inject:
