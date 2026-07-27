@@ -59,8 +59,11 @@ downstream, not hand-maintained here.
 - `fonts/` — Barlow Condensed, Nunito Sans, Sahitya, Zilla Slab
 - `logos/` — SVG/PNG brand marks
 - `assets/` — logo SVGs + principal photos (S&P-style brand media kit)
-- `tokens/linguistic/` — corporate language protocols
-- `tokens/design/` — logo and signet specifications
+- `governance/` — corporate language protocols, trademark/legal disclaimer text (renamed
+  2026-07-27 from `tokens/linguistic/` — prose governance content, not a DTCG token)
+- `tokens/design/` — logo and signet specifications (kept under `tokens/` deliberately —
+  arguably redundant with `logos/`'s actual SVG files, flagged for a future look, not
+  renamed/moved this pass)
 - `docs/typography/` — typography usage guides for Woodfine communications
 
 **Removed 2026-07-10:**
