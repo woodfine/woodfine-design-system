@@ -68,3 +68,20 @@ These did not exist in any prior `woodfine-media-assets` file:
    never the same color as the chart role in the first place (different hex even before this
    fix) — `woodfine-amber` itself needs no rename, only the now-orphaned `woodfine-amber-tint`
    (the chart role's leftover tint) was removed.
+3. **RESOLVED 2026-07-30 — `--wf-grey` had no real chart provenance; corrected.**
+   `theme-woodfine.css`'s `--wf-grey` (`#6B7280`) was simply borrowed from `woodfine-grey-mid`
+   (a general-brand ink grey, still `--wf-ink-3`) — never sourced from real chart usage. Direct
+   grep across project-orgcharts' full real chart corpus found `.token-grey`/`.token-gray*`
+   consistently using fill `#E6E7E8` / border `#9CA3AF` (57/57 occurrences), matching
+   MEMO-Woodfine-Color-Matrix.md's own ratified chart-grey and `org-chart-print`'s
+   (pointsav-design-system) already-shipped `role-grey-border` default. Corrected
+   `--wf-grey: #E6E7E8` and added a new `--wf-grey-border: #9CA3AF`; new
+   `woodfine-grey-chart`/`woodfine-grey-chart-border` entries added to `token-global-color.yaml`
+   as the source. `--wf-grey`'s corrected value coincidentally matches `--wf-rule` (`#E6E7E8`,
+   a separate hairline-separator role) — same shared-hue-different-role pattern already
+   confirmed for green in #1, not a conflict.
+   The table above's claim that "chart grey `#9CA3AF` is lighter than `woodfine-grey-mid`"
+   was directionally correct about `#9CA3AF` being a real chart value, but named it as the
+   *fill* rather than the *border* of the pair — corrected by this finding. `woodfine-gold`
+   (`#C89211`) was checked against the same real corpus during this pass and confirmed absent
+   — the "gold not used in charts; not added" line in the table above still holds; no change.

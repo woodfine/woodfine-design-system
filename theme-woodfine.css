@@ -29,7 +29,8 @@
     --wf-purple-tint:   #EEE6F1;
     --wf-yellow:        #EAB308;   /* Fund vehicle / LP node — dashed pill connector color. Corrected 2026-07-30: this var was still named --wf-amber at the old #F57F17 value; org-chart itself renamed amber -> yellow on 2026-06-06 (perceptual distance from orange insufficient) and moved to #EAB308, but this file was never updated to match. See docs/orgchart-brand-spec.md. */
     --wf-yellow-tint:   #FFFDE7;   /* Soft yellow surface for fund vehicle nodes -- corrected alongside --wf-yellow above */
-    --wf-grey:          #6B7280;
+    --wf-grey:          #E6E7E8;   /* Neutral fill for non-semantic/undefined chart entities (placeholder TitleCos etc.). Corrected 2026-07-30: old value #6B7280 was simply borrowed from woodfine-grey-mid (a general-brand ink grey, still --wf-ink-3 below) with no real chart provenance. #E6E7E8 matches MEMO-Woodfine-Color-Matrix.md's ratified chart-grey and is the dominant real value across project-orgcharts' full Bencal chart corpus (57/57 .token-grey/.token-gray* occurrences) — coincidentally the same hex as --wf-rule below, a separate hairline-separator role, not a conflict. */
+    --wf-grey-border:   #9CA3AF;   /* New 2026-07-30: real .token-grey/.token-gray* border pair for --wf-grey above (57/57 occurrences in the same corpus scan); matches org-chart-print's own already-shipped role-grey-border default (pointsav-design-system). */
     --wf-grey-tint:     #e9ecef;
     --wf-teal:          #005D5D;   /* IBM Carbon Teal 70 — fund / flow-through entity role */
     --wf-teal-tint:     #9EF0F0;   /* IBM Carbon Teal 20 — teal box background */

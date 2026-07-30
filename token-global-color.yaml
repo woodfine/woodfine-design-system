@@ -54,3 +54,12 @@ colors:
   # Yellow updated 2026-06-06 from #F57F17 (perceptual distance from orange #F15F22 insufficient)
   woodfine-yellow: "#EAB308"         # Org-chart fund vehicle / LP — dashed pill connector color
   woodfine-yellow-tint: "#FFFDE7"    # Soft yellow surface for fund vehicle nodes
+
+  # Org-chart grey — added 2026-07-30, supersedes theme-woodfine.css's prior --wf-grey borrow
+  # from woodfine-grey-mid. Source: direct grep across project-orgcharts' full real chart
+  # corpus (inputs/current-org-chart-html/*.html) — .token-grey/.token-gray* fill+border pair
+  # appears 57/57 times at these exact values; also matches MEMO-Woodfine-Color-Matrix.md's
+  # ratified chart-grey and org-chart-print's (pointsav-design-system) own role-grey-border
+  # default. Neither value previously existed anywhere in this file.
+  woodfine-grey-chart: "#E6E7E8"          # Neutral fill for non-semantic/undefined chart entities
+  woodfine-grey-chart-border: "#9CA3AF"   # Border pair for woodfine-grey-chart above
