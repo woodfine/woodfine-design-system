@@ -37,18 +37,31 @@ git -c user.signingkey="$HOME/Foundry/identity/woodfine-administrator/id_woodfin
 
 ## Downstream consumer
 
-`github.com/woodfine/woodfine-design-bim` consumes brand primitives
-from this repo. When token values change here, woodfine-design-bim DTCG
-tokens should be updated accordingly via project-bim Task.
+**Corrected 2026-07-30** — the prior claim here ("`github.com/woodfine/woodfine-design-bim`
+consumes brand primitives from this repo") was checked directly and found wrong on every
+count: no repo of that name exists (the real BIM repo is `woodfine-bim-library`); that
+repo's own `tokens/bim/*.dtcg.json` files are architectural/domain data (materials, floor
+plates, climate zones, tenant mix) with zero reference anywhere to this repo's brand
+colors; and this file's own **Repo scope** section already documented the disproof —
+`bim.woodfinegroup.com`'s live `tokens.css` has zero `--wf-*` properties, running an
+entirely separate `--bim-*` system. BIM is a real, legitimate, separate design-token
+system — just never a consumer of this repo, contrary to what this section claimed.
+
+**Real downstream consumers**, per the Carbon-model consumption correction (see
+`pointsav-design-system/.agent/rules/design-tokens.md`): whichever Woodfine-branded
+applications layer this repo's values via CSS custom-property override —
+`theme-woodfine.css` / `theme-woodfine-wcp.css` (both received into this repo 2026-07-30)
+being the concrete instances today. There is no single fixed downstream repo; any
+Woodfine-branded surface is a legitimate consumer, each in its own codebase, none of them
+forking this repo's values inside their own.
 
 **This repo is upstream-only** (2026-07-10 restructure, per a cross-repo
 token audit + Fable review — same treatment applied to the sibling
 `pointsav-media-assets` repo): it holds raw brand primitives — logo/
 photo/font files, design specs, legal/linguistic protocol content, and
-raw brand-values YAML — that feed downstream consumers' builds. It is
-not a distribution channel a creative-team member should ever need to
-visit directly. All derived CSS/theme artifacts are generated
-downstream, not hand-maintained here.
+raw brand-values YAML — plus, as of 2026-07-30, the real theme CSS that
+consumes them. It is not a distribution channel a creative-team member
+should ever need to visit directly.
 
 ## Repo scope
 
