@@ -1,0 +1,42 @@
+/* * ==========================================================================
+ * POINTSAV DESIGN SYSTEM: WOODFINE THEME (THE CUSTOMER OVERRIDE)
+ * ==========================================================================
+ * Maps Woodfine institutional branding onto the Tier-2 Semantic System Tokens.
+ * Must be linked *after* theme-generic.css in the document <head>.
+ */
+
+:root {
+    /* SYSTEM COLOR OVERRIDES (Woodfine Institutional) */
+    --sys-canvas: #F7F9FA; /* Unified monochrome canvas */
+    --sys-card: #F7F9FA;   /* Unified monochrome card */
+    --sys-text: #111827;   /* Deep Slate */
+    --sys-muted: #6B7280;
+    --sys-border: #111827; /* Brutalist contrast */
+    --sys-hairline: rgba(17, 24, 39, 0.15); /* Structural anchor */
+    --sys-accent: #164679; /* Woodfine Blue Base */
+    --color-interactive: #0E3A66; /* Darkened interactive navy — single link/focus/primary-action color (Carbon-style one-blue discipline; operator-approved 2026-06-03) */
+
+    /* WOODFINE CHART PALETTE (token-global-color.yaml + token-chart-semantic.yaml) */
+    --wf-blue:          #164679;
+    --wf-blue-tint:     #E8EFF7;
+    --wf-green:         #198038;   /* IBM Carbon Green 70 — updated to match Bencal WCP chart canonical; operator-approved 2026-06-03. Corporate-holding-company entity role -- coincidentally shares a hue with token-global-color.yaml's separate woodfine-status-verified (#54924E, AEC/IDS compliance-status green); confirmed 2026-07-30 as two genuinely different roles, not drift, per docs/orgchart-brand-spec.md's own earlier analysis. */
+    --wf-green-tint:    #DEFBE6;   /* IBM Carbon Green 10 — updated tint to match #198038 family */
+    --wf-orange:        #F15F22;
+    --wf-orange-tint:   #FDE8DD;
+    --wf-gold:          #C89211;
+    --wf-gold-tint:     #FAEFCC;
+    --wf-purple:        #7C468C;
+    --wf-purple-tint:   #EEE6F1;
+    --wf-yellow:        #EAB308;   /* Fund vehicle / LP node — dashed pill connector color. Corrected 2026-07-30: this var was still named --wf-amber at the old #F57F17 value; org-chart itself renamed amber -> yellow on 2026-06-06 (perceptual distance from orange insufficient) and moved to #EAB308, but this file was never updated to match. See docs/orgchart-brand-spec.md. */
+    --wf-yellow-tint:   #FFFDE7;   /* Soft yellow surface for fund vehicle nodes -- corrected alongside --wf-yellow above */
+    --wf-grey:          #6B7280;
+    --wf-grey-tint:     #e9ecef;
+    --wf-teal:          #005D5D;   /* IBM Carbon Teal 70 — fund / flow-through entity role */
+    --wf-teal-tint:     #9EF0F0;   /* IBM Carbon Teal 20 — teal box background */
+    --wf-red:           #A2191F;   /* IBM Carbon Red 70 — alert / required-action entity role */
+    --wf-red-tint:      #FFB3B8;   /* IBM Carbon Red 20 — red box background */
+    --wf-ink:           #111827;
+    --wf-ink-2:         #374151;
+    --wf-ink-3:         #6B7280;
+    --wf-rule:          #E6E7E8;
+}

@@ -49,4 +49,22 @@ These did not exist in any prior `woodfine-media-assets` file:
 
 ## Open questions
 
-1. Should `--wf-chart-green` and `--wf-chart-blue` alias to `--wf-safe` and `--wf-accent` respectively (since they share the same hex values), or remain independent? Aliasing documents the hex relationship but conflates the semantic layers. Current recommendation: keep independent, document the relationship in this file only.
+1. **RESOLVED 2026-07-30 — not via the `--wf-chart-*` prefix scheme this file originally
+   proposed.** That scheme was never actually implemented (`--wf-chart-*` never appears in any
+   real CSS this workspace ships); `theme-woodfine.css` kept using its existing bare `--wf-*`
+   names for chart-entity colors the whole time, so the semantic-bleed risk this file warned
+   about was real but unaddressed for over a month. Resolved instead by disambiguating the
+   *other* side directly: the AEC-role green in `token-global-color.yaml` was renamed
+   `woodfine-green` → `woodfine-status-verified` (still `#54924E`), leaving `theme-woodfine.css`'s
+   `--wf-green` (`#198038` as of 2026-06-03 — already diverged from this doc's stated `#54924E`
+   by the time this doc was written) as the sole "green" name. Confirmed as two genuinely
+   different, deliberately-approved roles, not drift — same value collision this doc already
+   identified, opposite fix (rename instead of alias).
+2. **Also found and corrected while resolving #1:** `theme-woodfine.css`'s `--wf-amber`
+   (`#F57F17`) was never updated for the amber → yellow rename this file documents in the table
+   above (2026-06-06) — it was still the pre-rename value, over three weeks stale. Corrected to
+   `--wf-yellow: #EAB308` / `--wf-yellow-tint: #FFFDE7`, matching this file's own already-documented
+   intent. `woodfine-amber`/`woodfine-amber-tint` in `token-global-color.yaml`'s AEC block were
+   never the same color as the chart role in the first place (different hex even before this
+   fix) — `woodfine-amber` itself needs no rename, only the now-orphaned `woodfine-amber-tint`
+   (the chart role's leftover tint) was removed.

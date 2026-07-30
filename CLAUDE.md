@@ -56,6 +56,11 @@ downstream, not hand-maintained here.
   the single raw source of truth in this repo
 - `token-global-telemetry.yaml` — product telemetry tokens
 - `theme-woodfine-light.yaml` — semantic theme mappings (light mode)
+- `theme-woodfine.css`, `theme-woodfine-wcp.css` — Woodfine's own customer-override theme CSS
+  (added 2026-07-30, moved here from `pointsav-design-system`'s legacy root `tokens/` tree per
+  the Carbon-model consumption correction — an adopting tenant's brand customization belongs in
+  the tenant's own repo, layered on top of the shared design system, not forked inside it)
+- `docs/orgchart-brand-spec.md` — org-chart `--wf-chart-*` namespace history/rationale (2026-06-06)
 - `fonts/` — Barlow Condensed, Nunito Sans, Sahitya, Zilla Slab
 - `logos/` — SVG/PNG brand marks
 - `assets/` — logo SVGs + principal photos (S&P-style brand media kit)

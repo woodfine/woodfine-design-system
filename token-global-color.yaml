@@ -18,7 +18,11 @@ colors:
 
   woodfine-amber: "#B54708"         # Regulation-warning / IDS validation alert
   woodfine-amber-bg: "#FFF8ED"      # Soft amber tint surface
-  woodfine-amber-tint: "#FFF3E0"    # Chart/org-chart amber tint (project-orgcharts)
+  # woodfine-amber-tint removed 2026-07-30: was always the chart/org-chart entity role's soft
+  # tint (not this AEC color's own), and that chart role itself renamed amber -> yellow on
+  # 2026-06-06 (perceptual distance from orange insufficient) with its own woodfine-yellow-tint
+  # below -- this entry was an orphaned leftover from before that rename, not a real second use
+  # of the AEC amber. See docs/orgchart-brand-spec.md for the full history.
 
   woodfine-cyan: "#0E7490"          # MEP / systems-element indicator (IfcDistributionElement)
   woodfine-cyan-bg: "#ECFEFF"       # Soft cyan tint surface
@@ -26,9 +30,16 @@ colors:
   woodfine-error: "#B42318"         # Clash / IDS validation failure / regulation violation
   woodfine-error-bg: "#FEF3F2"      # Soft error tint surface
 
-  woodfine-green: "#54924E"         # Verified/safe state — IDS pass, compliance ok (promoted from accent-secure in theme)
-  woodfine-green-bg: "#ECFDF3"      # Soft green tint surface
-  woodfine-green-tint: "#EEF6EC"    # Chart/org-chart green tint (project-orgcharts)
+  # Renamed 2026-07-30 from woodfine-green -- disambiguates from the org-chart entity-role
+  # green below (theme-woodfine.css's --wf-green, #198038), which is a genuinely different,
+  # separately-approved color that happened to collide on the bare hue name. See
+  # .agent/rules/design-tokens.md in project-design for the Carbon-model correction this
+  # was found during.
+  woodfine-status-verified: "#54924E"      # Verified/safe state — IDS pass, compliance ok (promoted from accent-secure in theme)
+  woodfine-status-verified-bg: "#ECFDF3"   # Soft tint surface
+  # woodfine-green-tint removed 2026-07-30: same orphaned-leftover reasoning as
+  # woodfine-amber-tint above -- was the chart-green role's tint (wrong value, #EEF6EC vs the
+  # real #DEFBE6 in theme-woodfine.css), not this AEC color's own.
 
   # Chart/org-chart palette — project-orgcharts
   woodfine-orange: "#F15F22"
