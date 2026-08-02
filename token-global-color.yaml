@@ -63,3 +63,15 @@ colors:
   # default. Neither value previously existed anywhere in this file.
   woodfine-grey-chart: "#E6E7E8"          # Neutral fill for non-semantic/undefined chart entities
   woodfine-grey-chart-border: "#9CA3AF"   # Border pair for woodfine-grey-chart above
+
+  # Editorial-surface per-tenant accent — added 2026-08-02, carved out of
+  # pointsav-design-system/tokens/editorial-surface/editorial-surface.dtcg.json per the
+  # Carbon-model consumption correction (design-tokens.md rule 3): the generic
+  # surface/category-tile/footer groups + PointSav's own reference accent merged into
+  # dtcg-vault there; these two Woodfine-tenant `brand-accent` values (set via
+  # `[data-instance="<tenant>"] { --brand-accent: <value> }` on documentation.pointsav.com's
+  # MediaKit engines when rendering projects.woodfinegroup.com / corporate.woodfinegroup.com)
+  # belong here instead. Values are exact oklch strings copied verbatim from the source file
+  # — not converted to hex, to avoid an imprecise colorimetric conversion introducing drift.
+  woodfine-editorial-accent-projects: "oklch(55% 0.18 145)"   # Woodfine green — projects.woodfinegroup.com wiki accent
+  woodfine-editorial-accent-corporate: "oklch(55% 0.15 35)"   # Woodfine amber — corporate.woodfinegroup.com wiki accent
