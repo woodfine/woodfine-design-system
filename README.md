@@ -13,6 +13,14 @@ All files in this repository follow a strict prefix taxonomy:
 
 *© 2026 Woodfine Management Corp. All rights reserved.*
 
+
+
+---
+
+*Copyright © 2026 Woodfine Capital Projects Inc. See [LICENSE](LICENSE) for terms.*
+
+*Woodfine Capital Projects™, Woodfine Management Corp™, PointSav Digital Systems™, Totebox Orchestration™, and Totebox Archive™ are trademarks of Woodfine Capital Projects Inc., used in Canada, the United States, Latin America, and Europe. All other trademarks are the property of their respective owners.*
+
 <!-- BEGIN: factory-release-engineering license-section -->
 <!-- ================================================================== -->
 <!-- This section is generated from factory-release-engineering.         -->
@@ -27,7 +35,7 @@ which is authoritative.
 
 If the terms of the PointSav-ARR do not accommodate your use case, a commercial alternative is available under the **PointSav-Commercial**. Contact corporate.secretary@woodfinegroup.com for details.
 
-Copyright © 2026 Woodfine Capital Projects Inc. All rights not expressly
+Copyright © 2026 Woodfine Capital Projects Inc. — all rights not expressly
 granted by the license are reserved.
 
 <!-- ================================================================== -->
@@ -43,13 +51,6 @@ legal completo, el cual es la versión autoritativa.
 
 Si los términos de la PointSav-ARR no se ajustan a su caso de uso, existe una alternativa comercial disponible bajo la **PointSav-Commercial**. Para más información, escriba a corporate.secretary@woodfinegroup.com.
 
-Copyright © 2026 Woodfine Capital Projects Inc. Se reservan todos los
+Copyright © 2026 Woodfine Capital Projects Inc. — se reservan todos los
 derechos no concedidos expresamente por la licencia.
 <!-- END: factory-release-engineering license-section -->
-
-
----
-
-*Copyright © 2026 Woodfine Capital Projects Inc. See [LICENSE](LICENSE) for terms.*
-
-*Woodfine Capital Projects™, Woodfine Management Corp™, PointSav Digital Systems™, Totebox Orchestration™, and Totebox Archive™ are trademarks of Woodfine Capital Projects Inc., used in Canada, the United States, Latin America, and Europe. All other trademarks are the property of their respective owners.*
