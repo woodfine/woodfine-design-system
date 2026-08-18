@@ -10,30 +10,27 @@ map, commit flow, and rules of engagement.
 
 ## Tier
 
-**Admin-only repo.** Direct commits from `mcorp-administrator` identity.
-No staging-tier (jwoodfine/pwoodfine) flow. No cluster clone.
+**Admin-only repo.** No staging-tier (j/p mirror) forks, no cluster
+clone — commits go straight to canonical. **Author identity is
+`jwoodfine`/`pwoodfine` (alternating), never `mcorp-administrator`**
+(corrected 2026-08-18 — the repo previously committed as
+`mcorp-administrator` directly, which violates the workspace's
+commit-identity hard rule; full history rewritten, see NOTAM/NEXT.md
+for detail). The `mcorp-administrator` identity is **push-key-only** —
+it never appears as a commit author.
 
 ## Remotes
 
 | Name | URL | Role |
 |---|---|---|
-| `origin` | `git@github.com-woodfine-administrator:woodfine/woodfine-media-assets.git` | Canonical — push directly after commit |
+| `origin` | `git@github.com-woodfine-administrator:woodfine/woodfine-media-assets.git` | Canonical — push directly after commit, admin SSH alias |
 
 ## Commit procedure
 
-Follow `~/Foundry/CLAUDE.md §8` admin-tier procedure for `woodfine/*` repos:
-
-```bash
-GIT_AUTHOR_NAME="mcorp-administrator" \
-GIT_AUTHOR_EMAIL="mcorp-administrator@users.noreply.github.com" \
-GIT_COMMITTER_NAME="mcorp-administrator" \
-GIT_COMMITTER_EMAIL="mcorp-administrator@users.noreply.github.com" \
-git -c user.signingkey="$HOME/Foundry/identity/woodfine-administrator/id_woodfine-administrator.pub" \
-    -c commit.gpgsign=true \
-    -c gpg.format=ssh \
-    -c gpg.ssh.allowedSignersFile="$HOME/Foundry/identity/allowed_signers" \
-    commit -m "<message>"
-```
+Use `~/Foundry/bin/commit-as-next.sh --admin woodfine "<message>"` —
+this is the canonical tool for exactly this pattern (author
+`jwoodfine`/`pwoodfine`, alternating; push via the admin SSH alias
+above). Do not hand-author commits with `GIT_AUTHOR_NAME=mcorp-administrator`.
 
 ## Downstream consumer
 
