@@ -4,7 +4,7 @@ Activos de marca, primitivos visuales y archivos de identidad institucional para
 
 Todos los archivos de este repositorio siguen una taxonomía de prefijos estricta:
 
-- `ASSET-*` — Archivos binarios y vectoriales inertes (por ejemplo, `ASSET-SIGNET-MASTER.svg`, `ASSET-FAVICON-CIRCLE.svg`)
+- `ASSET-*` — Archivos binarios y vectoriales inertes (por ejemplo, `asset-signet-master.svg`, `asset-favicon-circle.svg`)
 - `TOKEN-*` — Variables del sistema de diseño (por ejemplo, `TOKEN-COLOR-Brand.yaml`)
 
 **[→ woodfinegroup.com](https://woodfinegroup.com)** &nbsp;·&nbsp; **[→ github.com/woodfine](https://github.com/woodfine)**

@@ -4,7 +4,7 @@ Brand assets, visual primitives, and institutional identity files for Woodfine M
 
 All files in this repository follow a strict prefix taxonomy:
 
-- `ASSET-*` — Inert binary and vector files (e.g., `ASSET-SIGNET-MASTER.svg`, `ASSET-FAVICON-CIRCLE.svg`)
+- `ASSET-*` — Inert binary and vector files (e.g., `asset-signet-master.svg`, `asset-favicon-circle.svg`)
 - `TOKEN-*` — Design system variables (e.g., `TOKEN-COLOR-Brand.yaml`)
 
 **[→ woodfinegroup.com](https://woodfinegroup.com)** &nbsp;·&nbsp; **[→ github.com/woodfine](https://github.com/woodfine)**
